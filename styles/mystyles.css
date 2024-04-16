@@ -1,0 +1,68 @@
+.links {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.backtotop {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: smaller;
+}
+
+.resumelinks {
+    color: white;
+    text-align: center;
+}
+
+.center { margin: 0 auto; width: 500px; }
+
+.aboutmemedia > img {
+    height: 100%;
+    width: auto;
+  }
+
+.aboutmemedia {
+    height: 210px;
+    display: flex;
+    justify-content: center;
+  }
+
+.contactme {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.intropic {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.centerpic {
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+  .button1 {
+      background-color: rgb(131, 130, 130);
+      border-radius: 12px;
+  }
+
+@font-face {
+    font-family: AudiType;
+    src: url(../vendor/fontawesome-free/webfonts/AudiType-Normal_03.ttf);
+}
+

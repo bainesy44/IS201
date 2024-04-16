@@ -1,0 +1,75 @@
+body {
+    font-family: calibri, Arial, 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    color:#575757;
+    background-color: white;
+}
+
+.common {
+    position: absolute;
+    background-color: #575757;
+}
+
+.header {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 2;
+    font-family: calibri, Arial, 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.subheader {
+    float: right;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+a:visited {
+    color: white
+}
+
+.footer {
+    bottom: 5px;
+    height: 20px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+}
+
+
+.tableauPlaceholder {
+    align-content: space-around;
+    padding-top: 75px;
+}
+
+.tableauText {
+    font-family: calibri, Arial, 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: .75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.tableauh3 {
+    text-transform: uppercase;
+    font-family: calibri, Arial, 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h3 {
+    display: block;
+    font-size: 40px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
